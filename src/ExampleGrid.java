@@ -1,14 +1,14 @@
-import geometry.CollisionGrid;
-import geometry.Node;
+import grid.CollisionGrid;
+import grid.GridNode;
 import geometry.Vector2i;
-import pathfinding.Pathfinding;
+import grid.GridPathfinding;
 
 import java.util.List;
 
-public class Example {
+public class ExampleGrid {
 
     public static void main(String[] args) {
-        Pathfinding examplePathfinding = new Pathfinding();
+        GridPathfinding exampleGridPathfinding = new GridPathfinding();
 
         CollisionGrid exampleCollisionGrid = new CollisionGrid(8, 8);
 
@@ -19,9 +19,9 @@ public class Example {
         exampleCollisionGrid.setTileBlocked(3, 5, true);
         exampleCollisionGrid.setTileBlocked(4, 5, true);
 
-        List<Node> path = examplePathfinding.findPath(new Vector2i(0,7), new Vector2i(7, 0), exampleCollisionGrid);
+        List<GridNode> path = exampleGridPathfinding.findPath(new Vector2i(0,7), new Vector2i(7, 0), exampleCollisionGrid);
 
-        for (Node n : path) {
+        for (GridNode n : path) {
             System.out.println("(" + n.tile.getX() + ", " + n.tile.getY() + ")");
         }
     }

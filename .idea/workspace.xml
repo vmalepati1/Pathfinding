@@ -1,7 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="35217961-6e8f-445e-9ee6-8ee032886703" name="Default Changelist" comment="" />
+    <list default="true" id="35217961-6e8f-445e-9ee6-8ee032886703" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/continuous/ContinuousNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/PathfindingAfter.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/PathfindingBefore.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Pathfinding/Example.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Pathfinding/geometry/CollisionGrid.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Pathfinding/geometry/Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Pathfinding/pathfinding/Pathfinding$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Pathfinding/pathfinding/Pathfinding.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Example.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ExampleGrid.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/geometry/CollisionGrid.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/grid/CollisionGrid.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/geometry/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/grid/GridNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/geometry/Vector2i.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/geometry/Vector2i.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pathfinding/Pathfinding.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/grid/GridPathfinding.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -13,39 +28,43 @@
     <session id="1398301993">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="1" />
           <entry key="project.open.time.11" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.open.time.21" value="1" />
+          <entry key="project.opened" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="26" />
+          <entry key="java" value="57" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="26" />
+          <entry key="JAVA" value="57" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="1941" />
+          <entry key="dummy" value="56" />
+          <entry key="java" value="7938" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="1941" />
+          <entry key="JAVA" value="7938" />
+          <entry key="PLAIN_TEXT" value="56" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/pathfinding/Pathfinding.java">
+        <entry file="file://$PROJECT_DIR$/src/ExampleGrid.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="19" column="6" lean-forward="true" selection-start-line="19" selection-start-column="6" selection-end-line="19" selection-end-column="6" />
+            <state relative-caret-position="284">
+              <caret line="24" column="12" lean-forward="true" selection-start-line="24" selection-start-column="12" selection-end-line="24" selection-end-column="81" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -54,12 +73,25 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Example.java">
+        <entry file="file://$PROJECT_DIR$/src/ExampleContinuous.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="25" column="9" lean-forward="true" selection-start-line="10" selection-start-column="8" selection-end-line="25" selection-end-column="9" />
+            <state relative-caret-position="252">
+              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
               <folding>
                 <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/continuous/ContinuousPathfinding.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="134">
+              <caret line="117" column="24" selection-start-line="117" selection-start-column="24" selection-end-line="117" selection-end-column="24" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#4725#4741#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -73,6 +105,16 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>int</find>
+      <find>_</find>
+      <find>pind</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>double</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -93,6 +135,15 @@
         <option value="$PROJECT_DIR$/src/pathfinding/Pathfinding.java" />
         <option value="$PROJECT_DIR$/src/geometry/CollisionGrid.java" />
         <option value="$PROJECT_DIR$/src/Example.java" />
+        <option value="$PROJECT_DIR$/src/ExampleGrid.java" />
+        <option value="$PROJECT_DIR$/src/continuous/Vector2f.java" />
+        <option value="$PROJECT_DIR$/src/continuous/Vector3f.java" />
+        <option value="$PROJECT_DIR$/src/continuous/Vector2i.java" />
+        <option value="$PROJECT_DIR$/src/continuous/Node.java" />
+        <option value="$PROJECT_DIR$/src/continuous/Pathfinding.java" />
+        <option value="$PROJECT_DIR$/src/continuous/ContinuousNode.java" />
+        <option value="$PROJECT_DIR$/src/continuous/ContinuousPathfinding.java" />
+        <option value="$PROJECT_DIR$/src/ExampleContinuous.java" />
       </list>
     </option>
   </component>
@@ -103,8 +154,8 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="308" />
-    <option name="y" value="402" />
+    <option name="x" value="292" />
+    <option name="y" value="498" />
     <option name="width" value="1325" />
     <option name="height" value="970" />
   </component>
@@ -114,7 +165,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -131,24 +181,36 @@
               <item name="Pathfinding" type="b2602c69:ProjectViewProjectNode" />
               <item name="Pathfinding" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="continuous" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Pathfinding" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Pathfinding" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="geometry" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Pathfinding" type="b2602c69:ProjectViewProjectNode" />
               <item name="Pathfinding" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="pathfinding" type="462c0819:PsiDirectoryNode" />
+              <item name="grid" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="AndroidView" />
       <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545865782535" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545885578296" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="continuous" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -163,8 +225,8 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="Example" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Example" />
+    <configuration name="ExampleContinuous" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ExampleContinuous" />
       <module name="Pathfinding" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -172,7 +234,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Example" />
+        <item itemvalue="Application.ExampleContinuous" />
       </list>
     </recent_temporary>
   </component>
@@ -193,24 +255,52 @@
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Image Layers" />
-      <window_info id="Designer" />
-      <window_info id="UI Designer" />
-      <window_info id="Capture Tool" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24966443" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25033557" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32907802" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3602837" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Messages" order="10" />
+      <window_info anchor="right" id="Palette" order="0" />
+      <window_info anchor="right" id="Theme Preview" order="1" />
+      <window_info anchor="right" id="Capture Analysis" order="2" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="4" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Maven Projects" order="5" weight="0.3295302" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="6" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="7" weight="0.25" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.373" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3608087" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Messages" order="10" />
       <window_info anchor="right" id="Palette" order="0" />
       <window_info anchor="right" id="Theme Preview" order="1" />
       <window_info anchor="right" id="Capture Analysis" order="2" />
@@ -219,19 +309,16 @@
       <window_info anchor="right" id="Maven Projects" order="5" weight="0.3295302" />
       <window_info anchor="right" id="Ant Build" order="6" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="7" weight="0.25" />
-    </layout>
+    </layout-to-restore>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/geometry/Vector2i.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="19" column="35" lean-forward="true" selection-start-line="19" selection-start-column="35" selection-end-line="19" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/awt/Polygon.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="6120">
@@ -239,34 +326,129 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/geometry/Node.java">
+    <entry file="file://$PROJECT_DIR$/src/grid/CollisionGrid.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/geometry/CollisionGrid.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/lang/Math.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="17" selection-start-column="17" selection-end-column="17" />
+        <state relative-caret-position="226">
+          <caret line="715" column="23" selection-start-line="715" selection-start-column="23" selection-end-line="715" selection-end-column="23" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pathfinding/Pathfinding.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/IdentityHashMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="206">
+          <caret line="964" column="18" selection-start-line="964" selection-start-column="18" selection-end-line="964" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/Map.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="226">
+          <caret line="359" column="25" selection-start-line="359" selection-start-column="25" selection-end-line="359" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/continuous/Vector2i.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="15" column="10" selection-start-line="15" selection-start-column="10" selection-end-line="15" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/geometry/Vector3f.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="16" column="16" lean-forward="true" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
+          <folding>
+            <element signature="e#163#164#0" expanded="true" />
+            <element signature="e#212#213#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/grid/GridNode.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
-          <caret line="19" column="6" lean-forward="true" selection-start-line="19" selection-start-column="6" selection-end-line="19" selection-end-column="6" />
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/function/ToDoubleFunction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="222">
+          <caret line="43" column="6" lean-forward="true" selection-start-line="43" selection-start-column="6" selection-end-line="43" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/geometry/Vector2f.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/geometry/Vector2i.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/continuous/ContinuousNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="20" lean-forward="true" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/utils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="18" selection-start-column="18" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/grid/GridPathfinding.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1498">
+          <caret line="9" column="30" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Example.java">
+    <entry file="file://$PROJECT_DIR$/src/continuous/ContinuousPathfinding.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="25" column="9" lean-forward="true" selection-start-line="10" selection-start-column="8" selection-end-line="25" selection-end-column="9" />
+        <state relative-caret-position="134">
+          <caret line="117" column="24" selection-start-line="117" selection-start-column="24" selection-end-line="117" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#4725#4741#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ExampleGrid.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="284">
+          <caret line="24" column="12" lean-forward="true" selection-start-line="24" selection-start-column="12" selection-end-line="24" selection-end-column="81" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ExampleContinuous.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

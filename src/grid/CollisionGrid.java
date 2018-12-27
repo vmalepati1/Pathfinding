@@ -1,4 +1,4 @@
-package geometry;
+package grid;
 
 public class CollisionGrid {
 

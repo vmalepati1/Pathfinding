@@ -1,12 +1,14 @@
-package geometry;
+package grid;
 
-public class Node {
+import geometry.Vector2i;
+
+public class GridNode {
 
     public Vector2i tile;
-    public Node parent;
+    public GridNode parent;
     public double fCost, gCost, hCost;
 
-    public Node(Vector2i tile, Node parent, double gCost, double hCost) {
+    public GridNode(Vector2i tile, GridNode parent, double gCost, double hCost) {
         this.tile = tile;
         this.parent = parent;
         this.gCost = gCost;
