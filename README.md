@@ -1,6 +1,6 @@
 # Pathfinding
 
-Pathfinding algorithms for autonomous devices. There are two methods that are both based on the A* pathfinding algorithm that determine the most optimal path for robots to take in a field with obstacles. One method is confined to a grid while the other is continuous and allows complex polygon obstacles. 
+Pathfinding algorithms for autonomous devices. There are two methods that are both based on the A* pathfinding algorithm that determine the most optimal path for robots to take in a field with obstacles. One method is confined to a grid while the other is continuous and allows complex vertex obstacles. 
 
 ## Grid Pathfinding
 
