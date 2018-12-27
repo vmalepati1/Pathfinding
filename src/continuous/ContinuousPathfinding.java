@@ -125,6 +125,8 @@ public class ContinuousPathfinding {
             pind = n.pind;
         }
 
+        Collections.reverse(rlist);
+
         return rlist;
     }
 
